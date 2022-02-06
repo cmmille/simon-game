@@ -3,7 +3,6 @@ body {
   background-color: #011F3F;
 
 }
-
 .game-text {
   font-family: 'Press Start 2P', cursive;
   font-size: 2.5rem;
@@ -13,9 +12,10 @@ body {
 
 .container {
   display: block;
-  width: 75%;
+  width: 100%;
   margin: auto;
 }
+
 
 .btn {
   margin: 2vh;
