@@ -57,7 +57,7 @@ function startNewGame() {
 
     let gameStarted = false;
 
-    $(document).on("keydown", function (event) {
+    $(document).on("keydown click", function (event) {
 
         if (!gameStarted) {
 
