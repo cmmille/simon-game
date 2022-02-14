@@ -143,6 +143,8 @@ function gameOver() {
     // Play wrong noise
     let wrongNoise = new Audio("sounds/wrong.mp3")
     wrongNoise.play();
-    startNewGame();
-
+    setTimeout(() => {
+        startNewGame()
+    }, 400);
+    ;
 }
